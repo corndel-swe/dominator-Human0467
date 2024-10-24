@@ -9,7 +9,7 @@ box.addEventListener('click', () => {
 
 // TODO: get a reference to #button, #txt and #output
 const button = document.querySelector('#button')
-const txt = document.querySelector('#txt')
+//const txt = document.querySelector('#txt')
 const output = document.querySelector('#output')
 // TODO: add an event listener to the #button that changes the text in #output to the lowercase value of #txt
 button.addEventListener('click', event => {
