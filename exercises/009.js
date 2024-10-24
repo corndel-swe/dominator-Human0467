@@ -8,8 +8,11 @@
  * @returns {'player1' | 'player2' | 'tie'} The result of the game.
  */
 export const rockPaperScissors =
-  (/* TODO: accept `choice1` and `choice2` as parameters */) => {
-    // TODO: if player1 wins, return 'player1'
-    // TODO: if player2 wins, return 'player2'
-    // TODO: if tie, return 'tie'
+  (choice1, choice2) => {
+    var winMatrix = {
+                rock : { 'rock' : 'tie', 'paper' : 'player2', 'scissors' : 'player1' },
+                paper : { 'rock' : 'player1', 'paper' : 'tie', 'scissors' : 'player2'},
+                scissors : { 'rock' : 'player2', 'paper' : 'player1', 'scissors' : 'tie'},
+                    }
+    return winMatrix[choice1][choice2]
   }

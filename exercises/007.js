@@ -7,8 +7,11 @@
  * @returns {number} The product of the three returned values (i.e. multiply them)
  */
 export function main() {
-  // TODO: Call the functions in the correct order
-  // TODO: Return the product of the three returned values
+    let product = 1
+    product *= meFirst()
+    product *= meMiddle()
+    product *= meLast()
+    return product
 }
 
 function meFirst() {
