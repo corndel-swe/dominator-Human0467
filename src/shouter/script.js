@@ -6,6 +6,5 @@ const text = document.querySelector('#txt'); // <-- do we not need this?
 const output = document.querySelector('#output');
 
 button.addEventListener('click', event => {
-    event.preventDefault()
     output.innerText = text.value.toUpperCase()
 })
