@@ -1,4 +1,4 @@
-// TODO: increment and decrement the count when the buttons are clicked
+// increment and decrement the count when the buttons are clicked
 
 const num = document.querySelector('#count')
 var current = num.innerText
