@@ -25,5 +25,8 @@
   "license": "ISC",
   "devDependencies": {
     "mocha": "^10.7.3"
+  },
+  "dependencies": {
+    "live-server": "^1.2.2"
   }
 }
