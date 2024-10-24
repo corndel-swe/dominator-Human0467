@@ -4,7 +4,7 @@ console.log(box)
 const left = document.querySelector('.left')
 // TODO: add an event listener to the .box element that toggles the .left class
 box.addEventListener('click', () => {
-    box.classList.toggle('.left')
+    box.classList.toggle('left')
 })
 
 // TODO: get a reference to #button, #txt and #output
